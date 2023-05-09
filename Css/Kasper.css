@@ -1165,6 +1165,10 @@ header .container nav  ul li a:hover {
     margin-bottom: 30px;
 }
 
+.contact .content form  input:focus , textarea:focus {
+    outline:none;
+}
+
 .contact .content form button {
     color: white;
     background-color: var(--mainColor);
